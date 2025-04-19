@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gcp-devops-gke
-          image: gcr.io/gcp-devops-457007/python-docker-image:latest
+          image: gcr.io/gcp-devops-457007/gcpdevops
           ports:
             - containerPort: 5000
           env:

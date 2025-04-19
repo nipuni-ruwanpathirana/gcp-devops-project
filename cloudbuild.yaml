@@ -12,7 +12,7 @@ steps:
       - --image=gcr.io/$PROJECT_ID/gcpdevops-dev
       - --location=asia-south1-a
       - --cluster=gcp-devops
-      - --namespace=gcp-devops-prod
+      - --namespace=gcp-devops-dev
 
 options:
   logging: CLOUD_LOGGING_ONLY

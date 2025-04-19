@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gcp-devops-gke
-          image: gcr.io/gcp-devops-457007/gcpdevops
+          image: gcr.io/gcp-devops-457007/gcpdevops-dev:latest
           ports:
             - containerPort: 5000
           env:
@@ -27,7 +27,7 @@ metadata:
   name: "gcp-devops-gke-service"
   namespace: "gcp-devops-prod"
   labels:
-    app.kubernetes.io/managed-by: "gcp-cloud-build"
+    app.kubernetes.io/managed-by: "gcp-cloud-build-deploy"
 spec:
   ports: 
   - protocol: "TCP"

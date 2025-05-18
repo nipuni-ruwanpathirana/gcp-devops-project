@@ -6,7 +6,7 @@ This project demonstrates a complete DevOps pipeline for deploying a simple Pyth
 
 ## 🚀 Project Overview
 
-- **App**: A basic Python Flask app serving a "Hello, World!" page.
+- **App**: A basic Python Flask app.
 - **CI/CD**: Implemented using Google Cloud Build to automate Docker image builds and GKE deployments.
 - **Containerization**: The app is containerized using Docker.
 - **Deployment**: Deployed to a GKE cluster in the `asia-south1-a` region with a LoadBalancer service for external access.
